@@ -110,7 +110,7 @@ HW4_Interface methods are used in cHash class.
 
 Complexities;
 
-In cHash class, BuildHash method has for loop which is O (n) complexity, InsertHash method has biggest O ( ) complexity because of two for loops for ConvertInt and also insert the word hash table, ConvertInt method has biggest O ( ), FindHash method has O(1) complexity, Display method has biggest O ( ) complexity because of three nested two loops, NumofWord method has O(n) complexity, Showmax method has O ( ) complexity, Checkword method has O(n) complexity, Sort method has        O ( ) complexity because of two nested two loops and bubleSort method has O ( ) complexity.
+In cHash class, BuildHash method has for loop which is O (n) complexity, InsertHash method has biggest O ( ) complexity because of two for loops for ConvertInt and also insert the word hash table, ConvertInt method has biggest O ( n^2), FindHash method has O(1) complexity, Display method has biggest O (n^2) complexity because of three nested two loops, NumofWord method has O(n) complexity, Showmax method has O (n^2) complexity, Checkword method has O(n) complexity, Sort method has O (n^2) complexity because of two nested two loops and bubleSort method has O (n^2) complexity.
 
 # Environment
 I used NetBeans IDE 8.2 version to write and compile the code for all homeworks.
